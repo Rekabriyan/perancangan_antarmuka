@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRF</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fadhil2.css">
+</head>
+
+<body>
+    <!-- size sesuai resolusi hp -->
+    <div class="resolusi">
+        <div class="top">
+            <div id="judul-halaman">Tambah Transaksi</div>
+        </div>
+
+        <div class="body">
+            <div class="box-body">
+                <div class="transfer">
+                    <div>Jenis Transaksi</div> 
+                    <select class = "box" id="jenis-transaksi" onchange="ubahDanTampilkan()">
+                        <option value="pdam"> Air </option>
+                        <option value="listrik"> Listrik </option>
+                        <option value="transfer"> Transfer </option>
+                    </select>
+                    <img id="gambar" src="img\pdam.png" alt="gambar"width="50" height="50" >
+                </div>
+                <div class="transfer">
+                    <div>Rincian Transaksi</div>
+                    <div class="box">
+                        <label for="No-Pel" id="nomor">No.Pelanggan</label>
+                        <input type="text" class="text-box" id="No-Pel" name="No-Pel" value="1122334455">
+                    </div>
+                </div>
+                <div class="transfer">
+                    <div>Rincian Pembayaran</div>
+                    <div class="box" id="Jumlah-box" style="display: none;">
+                        <label for="jumlah">Jumlah</label>
+                        <input type="text" class="text-box" id="jumlah" name="jumlah" value="250000">
+                    </div>
+                    <select class = "box" id="frekuensi-pembayaran">
+                        <option class= "value" value="15">Tanggal 15 </option>
+                        <option class= "value" value="16">Tanggal 16  </option>
+                        <option class= "value" value="17">Tanggal 17  </option>
+                        <option class= "value" value="18">Tanggal 18  </option>
+                        <option class= "value" value="19">Tanggal 19  </option>
+                        <option class= "value" value="20">Tanggal 20  </option>
+                    </select>
+                    <div id="frek-pem">Frekunsi Pembayaran</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <button class="transaksi-btn" id= "tambah" onclick="tambah_Transaksi()">Tambah Transaksi</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/fadhil2.js"></script>
+</body>
+</html>

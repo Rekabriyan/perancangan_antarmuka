@@ -1,0 +1,1489 @@
+.resolusi {
+    position: relative;
+    width: 600px;
+    height: 1000px;
+    margin: auto;
+    background-color: #EBEAEA;
+}
+
+.top {
+    width: 600px;
+    height: 102px;
+    border-radius: 0% 0% 10% 10%;
+    background-color: #00529C;
+}
+
+#judul-halaman{
+    width: 600px;
+    height: 90px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: white;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.body{
+    width: 600px;
+    height: 800px;
+}
+
+.container-pembayaran-ukt{
+    position: relative;
+    top: 30px;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 10%;
+}
+
+#pilih-universitas{
+    position: absolute;
+    width: 121px;
+    height: 18px;
+    left: 67px;
+    top: 30px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #00529C;
+    font-weight: bold;
+}
+
+#toga-logo{
+    /* background-color: aqua; */
+    position: absolute;
+    width: 64px;
+    height: 57px;
+    left: 6px;
+    top: 25px;
+}
+
+#pilih-univ-tujuan{
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    left: 67px;
+    top: 60px;
+    font-family: 'lato';
+    border-bottom: black solid 1px;
+}
+
+#dropdown-pilih-universitas{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 400px;
+    top: 60px;
+}
+
+#no-pembayaran{
+    position: absolute;
+    width: 200px;
+    height: 18px;
+    left: 67px;
+    top: 120px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #00529C;
+    font-weight: bold;
+}
+
+#uang-logo{
+    position: absolute;
+    width: 64px;
+    height: 57px;
+    left: 5px;
+    top: 120px;
+}
+
+#masukkan-no-pembayaran{
+    font-family: 'Lato';
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    left: 67px;
+    top: 150px;
+    border-bottom: black solid 1px;
+}
+
+#catatan{
+    position: absolute;
+    width: 330px;
+    height: 24px;
+    left: 65px;
+    top: 185px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+
+    color: #828080;
+}
+
+#catatan2{
+    position: absolute;
+    width: 330px;
+    height: 24px;
+    left: 65px;
+    top: 200px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+
+    color: #828080;
+}
+
+.bottom{
+    position: relative;
+    width: 316px;
+    height: 44px;
+    left: 140px;
+    top: 480px;
+    padding: 10px;
+    background: rgb(0, 82, 156);
+    border-radius: 15px;
+}
+
+.lanjutkan-btn{
+    position: relative;
+    width: 48px;
+    height: 18px;
+    left: 120px;
+    top: 10px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #FFFFFF;
+}
+
+
+/* CSS untuk PembayaranUKT-1.html */
+.container-transaksi-terakhir{
+    position: relative;
+    top: 30px;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 10%;
+}
+
+.transaksi-terakhir{
+    position: absolute;
+    width: 150px;
+    height: 18px;
+    left: 33px;
+    top: 30px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #00529C;
+}
+
+.akun{
+    position: absolute;
+    width: 69px;
+    height: 63px;
+    left: 80px;
+    top: 70px;
+
+    /* background: #FFFFFF;
+    border: 3px solid #00529C; */
+}
+
+.akun-circle{
+    border-radius: 50%;
+}
+
+.belum-ada{
+    position: absolute;
+    width: 81px;
+    height: 18px;
+    left: 70px;
+    top: 155px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+
+}
+
+.container-daftar-pembayaran{
+    position: relative;
+    top: 50px;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 10%;
+}
+
+.daftar-pembayaran{
+    position: absolute;
+    width: 160px;
+    height: 18px;
+    left: 36px;
+    top: 30px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #00529C;
+}
+
+.container-cari-daftar{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 400px;
+    height: 25px;
+    left: 50px;
+    top: 100px;
+    /* overflow-y: scroll; */
+
+    background: #EBEAEA;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'lato';
+
+}
+
+.cari-daftar{
+    position: absolute;
+    width: 173px;
+    height: 17px;
+    left: 65px;
+    top: 105px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.cari{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 400px;
+    top: 102px;
+}
+
+.belum-ada-daftar{
+    position: absolute;
+    width: 150px;
+    height: 18px;
+    left: 180px;
+    top: 250px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.tambah-daftar-baru-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 316px;
+    height: 44px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    background-color: #00529C;
+}
+
+.bottom-1{
+    position: relative;
+    width: 316px;
+    height: 44px;
+    left: 140px;
+    top: 250px;
+    padding: 10px;
+    background: rgb(0, 82, 156);
+    border-radius: 15px;
+}
+
+/* CSS untuk PembayaranUKT-2.html */
+.container-data-mahasiswa{
+    position: relative;
+    top: 30px;
+    margin: auto;
+    width: 500px;
+    height: 140px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 10%;
+}
+
+.data-mahasiswa{
+    position: absolute;
+    width: 123px;
+    height: 18px;
+    left: 38px;
+    top: 30px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #00529C;
+}
+
+.akun-mahasiswa{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 57px;
+    height: 53px;
+    left: 27px;
+    top: 60px;
+}
+
+.inisial{
+    position: absolute;
+    width: 31px;
+    height: 21px;
+    left: 41px;
+    top: 80px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #00529C;
+}
+
+.nama-mahasiswa{
+    position: absolute;
+    width: 294px;
+    height: 37px;
+    left: 80px;
+    top: 65px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.nim{
+    position: absolute;
+    width: 61px;
+    height: 12px;
+    left: 130px;
+    top: 85px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+
+    color: #828080;
+}
+
+.prodi{
+    position: absolute;
+    width: 150px;
+    height: 12px;
+    left: 130px;
+    top: 100px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+
+    color: #828080;
+}
+
+.container-total-ukt{
+    position: relative;
+    top: 50px;
+    margin: auto;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 10%;
+}
+
+.nominal-pembayaran-ukt{
+    position: absolute;
+    width: 198px;
+    height: 18px;
+    left: 38px;
+    top: 30px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #00529C;
+}
+
+.nominal-uang{
+    position: absolute;
+    width: 52px;
+    height: 56px;
+    left: 30px;
+    top: 50px;
+}
+
+.nominal{
+    position: absolute;
+    width: 117px;
+    height: 28px;
+    left: 110px;
+    top: calc(50% - 20px/2 - 38px);
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.inisial-2{
+    position: absolute;
+    width: 31px;
+    height: 21px;
+    left: 45px;
+    top: 150px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #00529C;
+}
+
+.golongan-ukt{
+    position: absolute;
+    width: 180px;
+    height: 12px;
+    left: 120px;
+    top: 85px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+
+    color: #828080;
+}
+
+.akun-rek{
+    position: absolute;
+    width: 57px;
+    height: 53px;
+    left: 30px;
+    top: 130px;
+}
+
+.sumber-dana{
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 40px;
+    top: 110px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #00529C;
+}
+
+.no-rek{
+    position: absolute;
+    width: 183px;
+    height: 31px;
+    left: calc(50% - 290px/2 - 15px);
+    top: calc(50% - 100px/2 + 79.5px);
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.nominal-2{
+    position: absolute;
+    width: 98px;
+    height: 12px;
+    left: 123px;
+    top: 165px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+
+    color: #828080;
+}
+
+.bottom-2{
+    position: relative;
+    width: 316px;
+    height: 44px;
+    left: 140px;
+    top: 430px;
+    padding: 10px;
+    background: rgb(0, 82, 156);
+    border-radius: 15px;
+}
+
+/* <!-- CSS untuk Status-Pembayaran.html --> */
+.container-status-pembayaran{
+    position: relative;
+    top: 30px;
+    margin: auto;
+    width: 500px;
+    height: 550px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 10%;
+}
+
+.brf{
+    position: absolute;
+    width: 201px;
+    height: 112px;
+    left: 13px;
+    top: 30px;
+}
+
+.transaksi-berhasil{
+    position: absolute;
+    width: 250px;
+    height: 29px;
+    left: 140px;
+    top: 100px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.tanggal{
+    position: absolute;
+    width: 50px;
+    height: 18px;
+    left: 50px;
+    top: 170px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.waktu{
+    position: absolute;
+    width: 250px;
+    height: 18px;
+    left: 250px;
+    top: 170px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.nomor-id{
+    position: absolute;
+    width: 90px;
+    height: 18px;
+    left: 43px;
+    top: 200px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.no-id{
+    position: absolute;
+    width: 170px;
+    height: 18px;
+    left: 250px;
+    top: 200px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.sumber-dana-transaksi{
+    position: absolute;
+    width: 328px;
+    height: 18px;
+    left: 52px;
+    top: 250px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.nama-sumber-dana{
+    position: absolute;
+    width: 328px;
+    height: 18px;
+    left: 270px;
+    top: 250px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.jenis-transaksi{
+    position: absolute;
+    width: 328px;
+    height: 18px;
+    left: 52px;
+    top: 290px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.ket-jenis-transaksi{
+    position: absolute;
+    width: 328px;
+    height: 18px;
+    left: 270px;
+    top: 290px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.bank-tujuan{
+    position: absolute;
+    width: 328px;
+    height: 18px;
+    left: 52px;
+    top: 330px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.nama-tujuan-bank{
+    position: absolute;
+    width: 328px;
+    height: 18px;
+    left: 270px;
+    top: 330px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.nama-instansi{
+    position: absolute;
+    width: 328px;
+    height: 18px;
+    left: 53px;
+    top: 370px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.nama-tujuan{
+    position: absolute;
+    width: 328px;
+    height: 18px;
+    left: 270px;
+    top: 370px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.keterangan-catatan{
+    position: absolute;
+    width: 328px;
+    height: 18px;
+    left: 53px;
+    top: 410px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.nominal-transaksi{
+    position: absolute;
+    width: 328px;
+    height: 18px;
+    left: 53px;
+    top: 450px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.total-bayar{
+    position: absolute;
+    width: 328px;
+    height: 18px;
+    left: 270px;
+    top: 450px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.bottom-stat-pembayaran{
+    position: relative;
+    width: 316px;
+    height: 44px;
+    left: 140px;
+    top: 240px;
+    padding: 10px;
+    background: rgb(0, 82, 156);
+    border-radius: 15px;
+}
+
+/* pencarian perguruan tinggi */
+.resolusi-2{
+    width: 600px;
+    height: 800px;
+    margin: auto;
+    background-color: #00529C;
+}
+
+.container-pencarian-pt{
+    position: relative;
+    left: -22px;
+    top: 40px;
+    margin: 0 auto;
+    width: 480px;
+    height: 20px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 10px;
+    font-family: 'lato';
+}
+
+.pencarian{
+    position: relative;
+    width: 100px;
+    height: 18px;
+    left: 230px;
+    top: 5px;
+    margin: auto;
+}
+
+.tutup{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    left: 540px;
+    top: 65px;
+}
+
+.container-list-pt{
+    position: relative;
+    left: 0px;
+    top: 70px;
+    margin: auto;
+    width: 520px;
+    height: 600px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.logo-1{
+    position: absolute;
+    width: 250px;
+    height: 32px;
+    left: 50px;
+    top: 30px;
+    margin: auto;
+}
+
+.nama-pt-1{
+    position: absolute;
+    width: 214px;
+    height: 22px;
+    left: 120px;
+    top: 45px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.logo-2{
+    position: absolute;
+    width: 250px;
+    height: 32px;
+    left: 45px;
+    top: 100px;
+}
+
+.nama-pt-2{
+    position: absolute;
+    width: 214px;
+    height: 22px;
+    left: 120px;
+    top: 120px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.logo-3{
+    position: absolute;
+    width: 250px;
+    height: 32px;
+    left: 45px;
+    top: 170px;
+}
+
+.nama-pt-3{
+    position: absolute;
+    width: 214px;
+    height: 22px;
+    left: 120px;
+    top: 190px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.logo-4{
+    position: absolute;
+    width: 250px;
+    height: 32px;
+    left: 46px;
+    top: 250px;
+}
+
+.nama-pt-4{
+    position: absolute;
+    width: 280px;
+    height: 22px;
+    left: 120px;
+    top: 270px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.logo-5{
+    position: absolute;
+    width: 250px;
+    height: 32px;
+    left: 46px;
+    top: 330px;
+}
+
+.nama-pt-5{
+    position: absolute;
+    width: 380px;
+    height: 22px;
+    left: 120px;
+    top: 350px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.logo-6{
+    position: absolute;
+    width: 250px;
+    height: 32px;
+    left: 43px;
+    top: 415px;
+}
+
+.nama-pt-6{
+    position: absolute;
+    width: 380px;
+    height: 22px;
+    left: 120px;
+    top: 440px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.logo-7{
+    position: absolute;
+    width: 250px;
+    height: 32px;
+    left: 47px;
+    top: 500px;
+}
+
+.nama-pt-7{
+    position: absolute;
+    width: 380px;
+    height: 22px;
+    left: 120px;
+    top: 520px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+/* masukkan pin */
+.container-masukkan-pin{
+    position: relative;
+    top: 30px;
+    margin: auto;
+    width: 550px;
+    height: 600px;
+    padding: 10px;
+    background-color:white;
+    border-radius: 10%;
+}
+
+.masukkan-pin{
+    position: relative;
+    width: 200px;
+    height: 29px;
+    left: 180px;
+    top: 0px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.pin{
+    position: relative  ;
+    width: 107px;
+    height: 37px;
+    left: 220px;
+    top: 30px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+}
+
+.no1{
+    position: absolute;
+    height: 38px;
+    left: 100px;
+    right: 79.79%;
+    top: 150px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.no2{
+    position: absolute;
+    height: 38px;
+    left: 270px;
+    right: 79.79%;
+    top: 150px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.no3{
+    position: absolute;
+    height: 38px;
+    left: 440px;
+    right: 79.79%;
+    top: 150px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.no4{
+    position: absolute;
+    height: 38px;
+    left: 100px;
+    right: 79.79%;
+    top: 250px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.no5{
+    position: absolute;
+    height: 38px;
+    left: 170px;
+    right: 79.79%;
+    top: 0px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.no6{
+    position: absolute;
+    height: 38px;
+    left: 340px;
+    right: 79.79%;
+    top: 0px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.no7{
+    position: absolute;
+    height: 38px;
+    left: 0px;
+    right: 79.79%;
+    top: 100px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.no8{
+    position: absolute;
+    height: 38px;
+    left: 170px;
+    right: 79.79%;
+    top: 0px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.no9{
+    position: absolute;
+    height: 38px;
+    left: 340px;
+    right: 79.79%;
+    top: 0px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.no0{
+    position: absolute;
+    height: 38px;
+    left: 170px;
+    right: 79.79%;
+    top: 0px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.notitik{
+    position: absolute;
+    height: 38px;
+    left: 0px;
+    right: 79.79%;
+    top: 100px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.no-hapus{
+    position: absolute;
+    width: 50px;
+    height: 38px;
+    left: 325px;
+    right: 79.79%;
+    top: 0px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #404046;
+}
+
+.bottom-pin{
+    position: relative;
+    width: 316px;
+    height: 44px;
+    left: 25px;
+    top: 350px;
+    padding: 10px;
+    background: rgb(0, 82, 156);
+    border-radius: 15px;
+}

@@ -1,0 +1,43 @@
+
+.boxfingerprint {
+    margin: 0 auto;
+    width: 300px;
+    height: 239px;
+    background-image: url(assets/boxfingerprint.png);
+}
+.fingerprint{
+    position: absolute;
+    top: 20px;
+    left: 545px;
+    width: 139px;
+    height: 116px;
+    background-image: url(assets/fingerprint.png);
+}
+.ket{
+    position: relative;
+    text-align: center;
+    top: -120px;
+    left: 0px;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: lato, lato;
+    font-size: 12px;
+  }
+  .boxtext{
+    position: absolute; 
+    top: 175px;
+    left: 500px;
+    width: 227px;
+    height: 32px;
+    background-image: url(assets/boxtext.png);
+  }
+  .text{
+    position: relative;
+    text-align: center;
+    top: 7px;
+    left: 0px;
+    font-weight: 1000;
+    color: #00529C;
+    font-family: lato, lato;
+    font-size: 13px;
+  }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRF</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fadhil1.css">
+</head>
+
+<body>
+    <!-- size sesuai resolusi hp -->
+    <div class="resolusi">
+        <div class="top">
+            <div id="judul-halaman">Transaksi Otomatis</div>
+        </div>
+
+        <div class="body">
+            <div class="pdam">
+                <img id="air-lg" src="img\pdam.png" width="60" height="60">
+                <div id="air">Air</div>
+                <div id="air-rp">Rp 250000</div>
+            </div>
+            <div class="listrik">
+                <img id="lis-lg" src="img\listrik.png" width="60" height="60">
+                <div id="lis">Listrik</div>
+                <div id="lis-rp">Rp 700000</div>
+            </div>
+            <div class="optional" id= "Opt" onclick="editTransaksi()" style="display: none;">
+                <img id="opt-lg" src="img\transfer.png" width="60" height="60">
+                <div id="opt">Ucup</div>
+                <div id="opt-rp">Rp 500000</div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <button class="tambah_transaksi-btn" onclick="tambahTransaksi()">Tambah Transaksi</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/fadhil1.js"></script>
+</body>
+</html>
